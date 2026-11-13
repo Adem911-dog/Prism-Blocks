@@ -1,11 +1,11 @@
 const CACHE_NAME = 'prism-blocks-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png'
-];
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
+];    
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
